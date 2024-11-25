@@ -19,3 +19,16 @@ A powerful Streamlit application to interact with documents using AI. Upload PDF
    ```bash
    git clone https://github.com/your_username/document-buddy.git
    cd document-buddy
+2. Create a Python virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # On Windows, use `.venv\Scripts\activate`
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Start the Qdrant server:
+   ```bash
+   docker run -d --name qdrant -p 6333:6333 qdrant/qdrant
+5. Run the application:
+   ```bash
+   streamlit run app.py
