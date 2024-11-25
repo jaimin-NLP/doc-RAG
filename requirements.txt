@@ -1,0 +1,9 @@
+langchain
+langchain_community
+langchain_ollama
+qdrant-client
+unstructured
+streamlit
+torch
+transformers
+numpy
